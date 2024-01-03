@@ -37,6 +37,7 @@ const createMessageSelfElement = (content) => {
 
 const createMessageOtherElement = ( content, sender, senderColor ) => {
     const div = document.createElement("div")
+    const span = document.createElement("span")
 
     div.classList.add("message--other")
 
